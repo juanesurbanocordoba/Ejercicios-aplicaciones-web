@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Registro</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0f0f0f;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.box{
+background:#181818;
+padding:40px;
+border-radius:10px;
+width:350px;
+text-align:center;
+}
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+background:#121212;
+border:1px solid #333;
+color:white;
+border-radius:6px;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#ff0000;
+border:none;
+border-radius:6px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+a{
+color:#3ea6ff;
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Crear cuenta</h2>
+
+<input type="text" placeholder="Nombre">
+
+<input type="email" placeholder="Correo">
+
+<input type="password" placeholder="Contraseña">
+
+<input type="password" placeholder="Confirmar contraseña">
+
+<button onclick="window.location.href='login.html'">Registrarse</button>
+
+<p>¿Ya tienes cuenta? <a href="login.html">Iniciar sesión</a></p>
+
+</div>
+
+</body>
+</html>
